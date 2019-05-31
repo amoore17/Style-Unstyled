@@ -31,4 +31,7 @@ function main() {
     }
 }
 
-$(document).ready(main);
+if (document.readyState !== 'loading')
+    main();
+else
+    document.addEventListener('DOMContentLoaded', main);
