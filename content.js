@@ -1,3 +1,10 @@
+'use strict';
+
+/*
+ * Function:    main
+ * Description: If there is no CSS on the page, apply a default styling
+ * Parameters:  void
+ */
 function main() {
   let styleFound = false;
   let all = document.getElementsByTagName('*');
